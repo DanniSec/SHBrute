@@ -16,6 +16,22 @@ python SHBrute.py -t http://some.web.com/login -U users.txt  -P passwords.txt -f
 -w = time to wait after every attempt \
 -v = verbose (shows failed tries) 
 
+
+## Installation
+
+
+Clone SHBrute
+```
+git clone https://github.com/SoudruhDanny/SHBrute
+```
+Install requirements
+```
+pip install -r requirements.txt
+```
+Finally run SHBrute
+```
+python SHBrute - h
+```
 ```
 usage: SHBrute.py [-h] [-t url] [-u name] [-U wordlist] [-p password] [-P wordlist] [-v] [-f num]
                   [-w seconds] [-F̈́ str]
