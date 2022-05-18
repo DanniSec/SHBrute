@@ -6,7 +6,7 @@ Feel free to modify and redistribute this code.
 
 ## Basic usage
 ```
-python SHBrute.py -t http://some.web.com/login -U users.txt  -P passwords.txt -f 0 -F Unauthorized -w 0 -v
+python SHBrute.py -t http://some.web.com/login -U users.txt  -P passwords.txt -f 0 -F Unauthorized -w 0 -uf username -pf password -v 
 ```
 -t = target url to the form \
 -U / -u = username wordlist or -u for single username \
@@ -14,7 +14,9 @@ python SHBrute.py -t http://some.web.com/login -U users.txt  -P passwords.txt -f
 -f = if there is more then one form on site (0-n) \
 -F = failed login response \
 -w = time to wait after every attempt \
--v = verbose (shows failed tries) 
+-v = verbose (shows failed tries) \
+-uf = name of input box for username \
+-pf = name of input box for password \
 
 
 ## Installation
