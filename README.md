@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ```
 Finally run SHBrute
 ```
-python SHBrute - h
+python SHBrute -h
 ```
 ```
 usage: SHBrute.py [-h] [-t url] [-u name] [-U wordlist] [-p password] [-P wordlist] [-uf str] [-pf str] [-f num] [-w seconds] [-F str] [-v]
